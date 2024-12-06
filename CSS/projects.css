@@ -1,0 +1,35 @@
+/* Projects Page Specific */
+:root {
+    --dark-bg: #141414;
+    --dark-accent: #0e0e8b;
+    --light-text: #F0F9FF;
+    --blue-hover: #676fff;
+    --dark-text: #B0B0B0;
+}
+
+.projects-section {
+    padding: 2rem 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.project-card {
+    background-color: rgba(30, 64, 175, 0.3);
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 6px rgba(18, 2, 255, 0.438);
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card h2 {
+    color: var(--blue-hover);
+    margin-bottom: 1rem;
+}
