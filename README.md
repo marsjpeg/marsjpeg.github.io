@@ -1,2 +1,2 @@
 # marsjpeg.github.io
-My persolal websete :)
+My personal website :)
