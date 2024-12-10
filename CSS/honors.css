@@ -1,0 +1,51 @@
+:root {
+    --dark-bg: #141414;
+    --dark-accent: #0e0e8b;
+    --light-text: #F0F9FF;
+    --blue-hover: #676fff;
+    --dark-text: #B0B0B0;
+}
+
+.honors-section {
+    padding: 2rem 0;
+}
+
+.honors-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.honors-card {
+    background-color: rgba(30, 64, 175, 0.3);
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 6px rgba(18, 2, 255, 0.438);
+}
+
+.honors-card:hover {
+    transform: scale(1.05);
+}
+
+.honors-card h2 {
+    color: var(--blue-hover);
+    margin-bottom: 1rem;
+}
+
+.honors-duration {
+    font-style: italic;
+    margin-bottom: 1rem;
+    color: var(--light-text);
+}
+
+@media (max-width: 768px) {
+    .honors-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem; 
+    }
+
+    .honors-card {
+        width: 100%;
+    }
+}
