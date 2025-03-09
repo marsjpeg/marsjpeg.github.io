@@ -34,10 +34,10 @@
     content: '';
     position: absolute;
     top: 5px;
-    left: -8px;
+    left: -9px;
     width: 16px;
     height: 16px;
-    background-color: #8785a5;
+    background-color: #0a0a0a;
     border: 3px solid #333;
     border-radius: 50%;
 }
@@ -45,7 +45,7 @@
 .experience h3 {
     margin: 0;
     font-size: 1.2em;
-    color: #333;
+    color: #afafaf;
 }
 
 .experience p {
