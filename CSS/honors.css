@@ -21,7 +21,6 @@
     padding: 1.5rem;
     border-radius: 8px;
     transition: transform 0.3s;
-    box-shadow: 0 4px 6px rgba(18, 2, 255, 0.438);
 }
 
 .honors-card:hover {
