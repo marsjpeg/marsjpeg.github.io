@@ -1,6 +1,6 @@
 /* Main CSS */
 :root {
-    --dark-bg: #141414;
+    --dark-bg: #131313;
     --dark-accent: #0e0e8b;
     --light-text: #F0F9FF;
     --blue-hover: #676fff;
@@ -15,7 +15,7 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    background-color: var(--dark-bg);
+    background-color: #0a0a0a;
     color: var(--light-text);
     line-height: 1.6;
 }
@@ -65,7 +65,7 @@ footer {
     color: var(--light-text);
     text-align: center;
     padding: 1rem 0;
-    position: relative; /* Or fixed, if desired */
+    position: relative;
     bottom: 0;
     left: 0;
 }
@@ -90,4 +90,3 @@ footer {
 html {
     scroll-behavior: smooth;
 }
-
